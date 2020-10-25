@@ -130,6 +130,7 @@ body {
     line-height: 1.167;
     letter-spacing: 0.03em;
     color: var(--black-cl);
+    text-align: center;
 }
 .main-text {
     font-size: 14px;
