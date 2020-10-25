@@ -142,7 +142,7 @@ body {
     height: 75px;
     font-size: 400;
 }
-.text-box.text-box:nth-child(2) {
+.text-box{
     margin-right: 30px;
 }
 .job-description {
