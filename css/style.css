@@ -24,7 +24,7 @@ body {
     --accent-cl: #2196F3;
     --black-cl: #212121;
     --whait-cl: #FFFFFF;
-    --dark-bg: ##2F303A;
+    --dark-bg: #2F303A;
 }
 .container {
     width: 1170px;
@@ -141,7 +141,6 @@ body {
 .text-box {
     width: 270px;
     height: 75px;
-    font-size: 400;
 }
 .text-box{
     margin-right: 30px;
@@ -214,7 +213,7 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    color: var(--black-cl:)
+    color: var(--black-cl--)
 }
 .project-type {
 font-size: 16px;
