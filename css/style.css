@@ -1,8 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--black-cl);
 }
 :root {
@@ -12,8 +26,28 @@ body {
     --whait-cl: #FFFFFF;
     --dark-bg: ##2F303A;
 }
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right:15px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    padding-top: 24px;
+    padding-right: 93px;
+    Width: 145px;
+    Height: 31px;
+}
 .list {
     list-style: none;
+    display: inline-flex;
+}
+
+.header-box{
+    width: 1600px;
+    height: 80px;
+    background-color: var(--whait-cl);
 }
 .logo1 {
     font-family: "Raleway", serif;
@@ -43,6 +77,16 @@ body {
     color: inherit;
     text-decoration: none;
 }
+.link-item{
+    margin-top: 32px;
+}
+.link-item:not(:last-child){
+    margin-right: 50px;
+}
+.list-lef {
+    flex-direction: row;
+    margin-left: 0px;
+}
 .link:hover,
 .link:focus {
     color: var(--accent-cl)
@@ -58,21 +102,27 @@ body {
     letter-spacing: 0.06em;
     color: var(--whait-cl);
     background-color:var(--accent-cl);
+    border-radius: 4px;
 }
 
-
 .backgraund {
+    width: 1600px;
+    Height: 600px;
     background-color: #2F303A;
 }
 .page-title {
-    text-align: center;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
+    text-align: center;
     color: var(--whait-cl);
-   
+    width: 696px;
+    height: 120px;
+    padding-top: 200px;
+    margin-right: 452px;
+    padding-bottom: 280px;
+    margin-left: 452px;
 }
 .section-title {
     font-weight: 700;
@@ -87,6 +137,14 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-cl);
 }
+.text-box {
+    width: 270px;
+    height: 75px;
+    font-size: 400;
+}
+.text-box.text-box:nth-child(2) {
+    margin-right: 30px;
+}
 .job-description {
     font-size: 16px;
     line-height: 1.187;
@@ -99,6 +157,14 @@ body {
     line-height: 1.187;
     letter-spacing: 0.03em;
     color: var(--black-cl);
+}
+.team-box{
+    width: 1600px;
+    height: 648px;
+    background-color: #F5F4FA;
+}
+.list-position {
+     display: inline-block;
 }
 .adress {
     font-size: 14px;
@@ -113,6 +179,22 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.contacts-box {
+    width: 1600px;
+    height: 252px;
+}
+.logo-position {
+    padding-top: 60px;
+    padding-right: 1240px;
+    padding-bottom: 20px;
+    padding-left: 215px;
+}
+.list-item {
+    padding-top: 0px;
+    padding-right: 1240px;
+    padding-bottom: 9px;
+    padding-left: 215px;
 }
 .btn-portfolio {
     font-family: inherit;
