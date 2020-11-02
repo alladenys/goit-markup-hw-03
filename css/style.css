@@ -39,9 +39,8 @@ body {
 .flex {
     display: flex;
 }
+
 .logo {
-    width: 145;
-    height: 31;
     display: inline-block;
     margin-top: 24px;
     margin-right: 93px;
@@ -50,20 +49,12 @@ body {
     Height: 31px;
 }
 .list {
-    padding: 0;
-    margin: 0;
     list-style: none;
     display: inline-flex;
-}
-.right-list{
-   flex-direction: row; 
-}
-.left-list{
-    flex-direction: row-reverse;
+    height: 16px;
+    margin-top: 24px;
 }
 .header-box{
-    width: 1600px;
-    height: 80px;
     background-color: var(--whait-cl);
 }
 .logo1 {
@@ -91,14 +82,14 @@ body {
     color: var(--whait-cl)
 }
 .link {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
+    padding: 0;
+    margin: 0;
     color: inherit;
     text-decoration: none;
     letter-spacing: 0,02;
 }
 .link-item{
-    margin-top: 32px;
+    height: 16px;
 }
 .link-item:not(:last-child){
     margin-right: 50px;
@@ -111,25 +102,14 @@ body {
 .link:focus {
     color: var(--accent-cl)
 }
-.btn {
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--whait-cl);
-    background-color:var(--accent-cl);
-    border-radius: 4px;
-}
+
 
 .backgraund {
-    width: 1600px;
+    margin: 0;
+    padding: 0;
     Height: 600px;
     background-color: #2F303A;
-}
+    padding: 200px;}
 .page-title {
     font-weight: 900;
     font-size: 44px;
@@ -139,10 +119,20 @@ body {
     color: var(--whait-cl);
     width: 696px;
     height: 120px;
-    padding-top: 200px;
-    margin-right: 452px;
-    padding-bottom: 280px;
-    margin-left: 452px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}.btn {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--whait-cl);
+    background-color:var(--accent-cl);
+    border-radius: 4px;
+    display: flex;
+    margin:0 auto;
 }
 .section-title {
     font-weight: 700;
