@@ -43,15 +43,15 @@ body {
     Width: 145px;
     Height: 31px;
 }
-.main{
+.main {
+    height: 1628px;
     background-color:#E5E5E5;
 }
 .portfolio-container{
-    height: 182px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
     padding-top: 94px;
+    margin: 0;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 .portfolio-container-item {
     margin-left: 0;  
@@ -69,12 +69,10 @@ body {
     margin-right: 30px;
 }
 .portfolio-list{
-    display: inline-flex;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    align-items: center;
+    display: flex;
+    list-style: none;
 }
+
 .header-box{
     background-color: var(--whait-cl);
 }
@@ -272,6 +270,7 @@ body {
     margin-bottom: -10px;
 }
 .flex-wrap-item { 
+    background: #FFFFFF;
     margin-right: 10px;
     margin-bottom:10px;
     flex-basis: calc((100% - 3 * 10px) / 3);
@@ -281,13 +280,19 @@ body {
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
-    color: var(--black-cl--)
+    color: var(--black-cl--);
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .project-type {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color:var(--main-text-cl)
+    color:var(--main-text-cl);
+    margin-left: 24px;
+    margin-top: 4px;
+    margin-bottom: 20px;
 }
 .btn-portfolio {
     font-family: inherit;
@@ -300,14 +305,17 @@ body {
     letter-spacing: 0.06em;
     color: var(--black-cl);
     background-color: #F5F4FA;
+    border-radius: 4px;
 }
+.btn-parameter{
+    margin-left: 8px;
+}
+
 .btn-portfolio:hover,
 .btn-portfolio:focus {
     background-color: var(--accent-cl);
     color: var(--whait-cl);
-}
-.btn-portfolio:not(:last-child){
-    margin: 8px;
+    border-color: var(--accent-cl);
 }
 .logo-position {
     padding: 0;
