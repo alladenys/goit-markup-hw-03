@@ -117,11 +117,15 @@ body {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
+    margin-bottom: 0;
+    align-items: center;
 }
 .right-list{
     margin-left: 331px;
     padding-right: 0;
     padding-inline-start: 0;
+    margin-bottom: 0;
+    align-items: center; 
 }
 .link:hover,
 .link:focus {
